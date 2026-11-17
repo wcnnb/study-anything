@@ -1,9 +1,9 @@
 ---
-name: domain-cartography
+name: study-anything
 description: Use when the user wants to rapidly get up to speed in an unfamiliar field rather than receive a summary of it, or asks for 入门 / 速通 / 建立知识体系 / 核心心智模型, or is preparing for an exam, interview, or a conversation with an expert in a domain they do not own. Calibrates the learner level and goal first, audits which sources were actually read, maps concepts with dependencies and learning order, extracts five core mental models each with a failure condition, separates real controversies from engineering trade-offs, then drills one question at a time with adaptive difficulty and a weakness ledger. Not for single factual lookups.
 ---
 
-# 领域测绘（Domain Cartography）
+# Study Anything（领域测绘）
 
 ## 产出五样东西
 

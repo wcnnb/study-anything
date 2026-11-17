@@ -1,4 +1,4 @@
-# domain-cartography
+# Study Anything
 
 > 把「陌生领域速通」做成一条可复用流程的 Agent Skill。  
 > **不产出总结，产出判断力**：先画地图，再一道一道验证你到底站在哪。
@@ -30,7 +30,7 @@
 
 | 环境                  | 目标路径                                         | 怎么验证                                     |
 | ------------------- | -------------------------------------------- | ---------------------------------------- |
-| DeepSeek Harness    | `$DSH_HOME/skills/`（默认 `~/.dsh/skills/`）     | 对话框输入 `/`，在「技能」组里看到 `domain-cartography` |
+| DeepSeek Harness    | `$DSH_HOME/skills/`（默认 `~/.dsh/skills/`）     | 对话框输入 `/`，在「技能」组里看到 `study-anything` |
 | Claude Code         | `~/.claude/skills/`                          | `/skills`                                |
 | WorkBuddy           | `~/.workbuddy/skills/`                       | 技能列表                                     |
 | 项目级（只对单个仓库生效，优先级最高） | `<项目>/.dsh/skills/` 或 `<项目>/.claude/skills/` | 同上                                       |
@@ -38,13 +38,13 @@
 macOS / Linux：
 
 ```bash
-git clone https://github.com/WCNNB/domain-cartography.git ~/.dsh/skills/domain-cartography
+git clone https://github.com/WCNNB/study-anything.git ~/.dsh/skills/study-anything
 ```
 
 Windows（PowerShell）：
 
 ```powershell
-git clone https://github.com/WCNNB/domain-cartography.git "$env:USERPROFILE\.dsh\skills\domain-cartography"
+git clone https://github.com/WCNNB/study-anything.git "$env:USERPROFILE\.dsh\skills\study-anything"
 ```
 
 > ⚠️ **不要用「添加插件」入口装。** 技能不是插件包，那个入口只认 `package.json` + 代码入口，会报「该路径不存在或不是有效的插件包」。技能只需要放到扫描目录里。
@@ -54,7 +54,7 @@ git clone https://github.com/WCNNB/domain-cartography.git "$env:USERPROFILE\.dsh
 直接说你要学什么：
 
 ```
-用 domain-cartography 带我入门 密码学
+用 study-anything 带我入门 密码学
 我下周要跟甲方聊等级保护，帮我把这块搞明白
 这些资料我看不完，帮我压缩成我能用得上的东西
 ```
